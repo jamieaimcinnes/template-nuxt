@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "overrides": {
+    "vue": "latest"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/device": "^3.1.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.11",
+    "@nuxtjs/tailwindcss": "^6.6.8",
+    "@types/node": "^18",
+    "nuxt": "^3.4.3",
+    "nuxt-lodash": "^2.4.1",
+    "nuxt-security": "^0.13.0"
+  },
+  "dependencies": {
+    "@formkit/nuxt": "^0.16.5",
+    "@fortawesome/fontawesome-pro": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/pro-regular-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@headlessui/vue": "^1.7.13",
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@pinia/nuxt": "^0.4.10",
+    "@tailwindcss/forms": "^0.5.3",
+    "@vueuse/components": "^10.1.2",
+    "@vueuse/core": "^10.1.2",
+    "@vueuse/nuxt": "^10.1.2",
+    "joi": "^17.9.2",
+    "knex": "^2.4.2",
+    "mongoose": "^7.1.1",
+    "mysql2": "^3.3.0",
+    "qs": "^6.11.1",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "tinycolor2": "^1.6.0"
+  }
+}
